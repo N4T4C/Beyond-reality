@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="logo">EduFlow</div>
+      <nav class="nav">
+        <a href="#" class="active">🏠 Dashboard</a>
+        <a href="#">📚 Subjects</a>
+        <a href="#">🧩 Assignments</a>
+        <a href="#">📊 Progress</a>
+        <a href="#">⚙️ Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Top Bar -->
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <input type="text" placeholder="Search courses..." class="search" />
+        <div class="profile">
+          <img src="https://via.placeholder.com/35" alt="User" />
+          <span>John Doe</span>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Welcome back, Best youtube channel ever!</h1>
+          <p>Continue your learning journey</p>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="stats">
+        <div class="stat-card">
+          <h3>Lessons Completed</h3>
+          <p class="value">0</p>
+          <span>of 4 total</span>
+        </div>
+        <div class="stat-card">
+          <h3>Overall Progress</h3>
+          <p class="value">0%</p>
+        </div>
+        <div class="stat-card">
+          <h3>Avg. Improvement</h3>
+          <p class="value">+NaN%</p>
+        </div>
+        <div class="stat-card">
+          <h3>Active Subjects</h3>
+          <p class="value">4</p>
+        </div>
+      </section>
+
+      <!-- Explore Subjects -->
+      <section class="subjects">
+        <h2>Explore Subjects</h2>
+        <div class="subject-grid">
+          <div class="subject-card">
+            <h3>Mathematics</h3>
+            <p>Master mathematical concepts from arithmetic to calculus.</p>
+            <a href="#">Start Learning →</a>
+          </div>
+          <div class="subject-card">
+            <h3>English</h3>
+            <p>Improve your grammar, writing, and literature skills.</p>
+            <a href="#">Start Learning →</a>
+          </div>
+          <div class="subject-card">
+            <h3>Programming</h3>
+            <p>Learn coding with modern languages and frameworks.</p>
+            <a href="#">Start Learning →</a>
+          </div>
+          <div class="subject-card">
+            <h3>Science</h3>
+            <p>Explore physics, chemistry, and biology concepts.</p>
+            <a href="#">Start Learning →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Continue Learning -->
+      <section class="continue">
+        <h2>Continue Learning</h2>
+        <div class="continue-grid">
+          <div class="continue-card">
+            <h3>Introduction to Variables</h3>
+            <p>Learn what variables are and how to use them in algebra.</p>
+            <div class="progress-bar"><div class="progress" style="width:70%;"></div></div>
+            <div class="continue-footer">
+              <span>Step 3 of 3</span>
+              <a href="#">Continue →</a>
+            </div>
+          </div>
+          <div class="continue-card">
+            <h3>Python Variables and Data Types</h3>
+            <p>Learn how to work with variables and data types in Python.</p>
+            <div class="progress-bar"><div class="progress" style="width:50%;"></div></div>
+            <div class="continue-footer">
+              <span>Step 3 of 3</span>
+              <a href="#">Continue →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
